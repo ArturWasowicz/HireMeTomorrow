@@ -1,9 +1,5 @@
-
 import Card from "../UI/Card"
 import { experienceData } from "../data/data"
-
-// import Shape............
-import Shape from '../assets/gradientShape.svg'
 
 export default function Experience() {
   return (
@@ -13,9 +9,16 @@ export default function Experience() {
 
         <div className="experience-cards">
           {
-            experienceData.map(({ icon, cardInfo, cardLink, cardName }, index) => {
+            experienceData.map(({ icon, cardInfo, cardLink, cardName, cardNameSecond }, index) => {
               return (
-                <Card CardIcon={icon} CardName={cardName} CardInfo={cardInfo} CardLink={cardLink} key={index} />
+                <Card
+                  CardIcon={icon}
+                  CardName={cardName}
+                  CardNameSecond={cardNameSecond}
+                  CardInfo={cardInfo}
+                  CardLink={cardLink}
+                  key={index}
+                />
               )
             })
           }
@@ -24,4 +27,3 @@ export default function Experience() {
     </section>
   )
 }
-

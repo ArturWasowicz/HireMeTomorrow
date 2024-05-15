@@ -11,6 +11,7 @@ import TypedText from "../../UI/TypedText"; // Import der TypedText-Komponente
 
 const HeroContainer = styled.div`
   display: flex;
+  background: #181161;
   justify-content: center;
   position: relative;
   padding: 80px 30px;
@@ -74,6 +75,7 @@ const Title = styled.div`
   color: ${({ theme }) => theme.text_primary};
   line-height: 48px;
   width: fit-content;
+  padding:8px 0px;
 
   @media (max-width: 960px) {
     text-align: center;
@@ -91,7 +93,6 @@ const TextLoop = styled.div`
   font-size: 32px;
   display: flex;
   gap: 12px;
-  color: ${({ theme }) => theme.text_primary};
   line-height: 68px;
 
   @media (max-width: 960px) {
@@ -102,22 +103,6 @@ const TextLoop = styled.div`
     font-size: 22px;
     line-height: 48px;
     margin-bottom: 16px;
-  }
-`;
-
-const SubTitle = styled.div`
-  font-size: 20px;
-  line-height: 32px;
-  margin-bottom: 42px;
-  color: blue;
-
-  @media (max-width: 960px) {
-    text-align: center;
-  }
-
-  @media (max-width: 960px) {
-    font-size: 16px;
-    line-height: 32px;
   }
 `;
 
@@ -188,7 +173,7 @@ const Hero = () => {
               <motion.div {...headContentAnimation}>
                 <TypedText />
                 <section>
-                  <div>
+                  <div style={{ paddingTop: "12px" }}>
                     <p style={{ textAlign: "justify", lineHeight: "1.6", fontSize: "clamp(1.2rem, 5vw, 1rem)", "@media (min-width: 600px)": { textAlign: "center" } }}>
                       Starting my journey in web development, I bring a fresh perspective and a hunger for learning. As a motivated beginner, I'm ready to tackle new challenges and contribute my enthusiasm to your team. With a foundation in Full Stack MERN development and a commitment to growth, I'm eager to take the next step in my career. My portfolio reflects my dedication to crafting modern applications and enhancing user experiences. Leveraging my expertise in various technologies, I'm driven to deliver innovative solutions to every project. Let's collaborate and create something extraordinary. Hire me, and let's make waves in the digital world!
                     </p>

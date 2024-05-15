@@ -16,13 +16,13 @@
 }
 
 :root {
-  --color-white: #eaea87;
   --color-primary: #eb600f;
+  --color-primary-1: #eaea87;
+  --color-white: #eaea87;
   --color-bg: #181161;
   --color-bg-Ex: #3713d6;
   --color-danger: #ff002f;
-
-  --transition: .4s ease;
+  --transition: 0.4s ease;
 }
 
 html {
@@ -75,7 +75,7 @@ img {
 
 /* .....................Start Nav Bar................... */
 nav {
-  background: var(--color-bg-Ex);
+  background-color: #2514e6;
   height: 7rem;
   display: grid;
   place-items: center;
@@ -99,16 +99,18 @@ nav {
 }
 
 .socials {
-  display: flex;
+  text-align: center;
   align-items: center;
   margin-left: auto;
   gap: 20px;
-  margin-bottom: 60px;
+  margin-top: 0px;
+  margin-bottom: 100px;
 }
 
 .socials span {
   color: var(--color-white);
-  font-size: 24px;
+  padding: 15px;
+  font-size: 19px;
   cursor: pointer;
   transition: var(--transition);
 }
@@ -125,49 +127,14 @@ header {
   padding-top: 200px;
 }
 
-.header-container {
-  display: grid;
-  grid-template-columns: 35% auto;
-  gap: 80px;
-  align-items: center;
-}
-
 span {
   color: var(--color-primary);
-}
-
-.intro h5 {
-  margin-bottom: 24px;
-  position: relative;
-}
-
-.intro h5::before {
-  position: absolute;
-  content: '';
-  width: 10rem;
-  height: 5rem;
-  background: url('./assets/arrow.png');
-  top: 0;
-  margin-left: -6rem;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .proffession {
   font-size: 16px;
   margin-bottom: 20px;
   text-decoration: underline;
-}
-
-.headingtext span {
-  background: url('./assets/programCircle.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  margin-bottom: 24px;
-  display: block;
-  width: fit-content;
-  padding: 10px;
 }
 
 /* .....................End Header Section................... */
@@ -191,6 +158,11 @@ span {
   gap: 4px;
   color: var(--color-danger);
 }
+
+.footspan {
+  color: var(--color-white);
+}
+
 
 /* .....................End About Section................... */
 
@@ -303,29 +275,24 @@ span {
 
 /* .....................Start Contact Section................... */
 #Contact {
-  padding-top: 140px;
-  padding-bottom: 4rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .contact-container {
-  display: grid;
-  grid-template-columns: 60% auto;
+  padding: 15px;
+  background-color: #181161;
+  border: #2514e6 2px solid;
+  border-radius: 20px;
+  margin-bottom: 60px;
 }
 
 .contact-info {
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
-
-.contact-info a {
-  color: var(--color-primary);
-  font-size: 20px;
-  transition: var(--transition);
-}
-
-.contact-info a:hover {
-  color: var(--color-danger);
+  margin-bottom: 0;
+  padding: 0;
 }
 
 /* .....................End Contact Section................... */
@@ -371,10 +338,8 @@ span {
   background: var(--color-primary);
 }
 
-
 .icon-container {
   position: relative;
-  /* Weitere Stile, falls erforderlich */
   justify-self: center;
 }
 
@@ -512,15 +477,7 @@ span {
 
   /* ...........Contact......... */
   #Contact {
-    padding-bottom: 6rem;
-  }
-
-  .empty {
-    display: none;
-  }
-
-  .contact-container {
-    grid-template-columns: 1fr;
+    padding-bottom: 1rem;
   }
 
   /* ...........Menu......... */

@@ -7,9 +7,10 @@ import About from './components/About/About'
 import Experience from './components/Experience'
 import Project from './components/Project'
 import Testimonials from './components/Testimonials'
-import Contact from './components/Contact'
+import Contact from './components/contact/Contact'
 import Menu from './components/Menu'
 import Technologies from './components/Technologies'
+
 
 export default function App() {
   return (
@@ -19,7 +20,6 @@ export default function App() {
       <About />
       <Experience />
       <Technologies />
-
       <Project />
       <Testimonials />
       <Contact />

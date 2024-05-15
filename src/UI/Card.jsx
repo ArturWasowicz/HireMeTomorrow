@@ -1,6 +1,6 @@
-import "../UI/UserI.css"
+import "../UI/UserI.css";
 
-export default function Card({ CardIcon, CardName, CardInfo, CardLink }) {
+export default function Card({ CardIcon, CardName, CardNameSecond, CardInfo, CardLink }) {
   return (
     <article className='card'>
       <div className="card-icon">
@@ -8,9 +8,10 @@ export default function Card({ CardIcon, CardName, CardInfo, CardLink }) {
       </div>
       <div className="card-content">
         <h4>{CardName}</h4>
-        <small>{CardInfo}</small>
+        <h5>{CardNameSecond}</h5>
+        <small style={{ paddingTop: "5px" }}>{CardInfo}</small>
         <a href={CardLink} className='card-btn'>Learn More</a>
       </div>
     </article>
-  )
+  );
 }

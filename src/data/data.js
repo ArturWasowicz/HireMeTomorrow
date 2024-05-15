@@ -11,7 +11,6 @@ export const headerData = [
     }
 ]
 
-
 //  Experience Data..................
 
 import cardIcon1 from '../assets/cardIcon1.png'
@@ -23,14 +22,16 @@ export const experienceData = [
     {
         id: 1,
         icon: cardIcon1,
-        cardName: 'Transportation sebsite with GPS-Tracking',
+        cardName: 'Transportation website',
+        cardNameSecond: 'with GPS-Tracking',
         cardInfo: 'Take your client onboard seamlessly by our amazing tool of digital onboard process.',
         cardLink: '#'
     },
     {
         id: 2,
         icon: cardIcon2,
-        cardName: 'Doctor office website with appointment booking',
+        cardName: 'Doctor office website',
+        cardNameSecond: 'with appointment booking',
         cardInfo: 'Take your client onboard seamlessly by our amazing tool of digital onboard process.',
         cardLink: '#'
     },
@@ -38,6 +39,7 @@ export const experienceData = [
         id: 3,
         icon: cardIcon3,
         cardName: 'Business consulting website',
+        cardNameSecond: '',
         cardInfo: 'Take your client onboard seamlessly by our amazing tool of digital onboard process.',
         cardLink: '#'
     },
@@ -45,13 +47,11 @@ export const experienceData = [
         id: 4,
         icon: cardIcon4,
         cardName: 'CIB on the Mobile',
+        cardNameSecond: '',
         cardInfo: 'Take your client onboard seamlessly by our amazing tool of digital onboard process.',
         cardLink: '#'
     },
 ]
-
-
-
 
 //  Projects Data..................
 
@@ -76,8 +76,6 @@ export const projectsData = [
     },
 
 ]
-
-
 //  Projects Data..................
 
 export const testimonialssData = [
