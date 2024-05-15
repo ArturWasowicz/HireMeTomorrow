@@ -1,0 +1,12 @@
+.pulsate {
+    animation: pulse 3s ease-in-out infinite alternate; /* Pulsierende Animation mit 1 Sekunde Dauer */
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
