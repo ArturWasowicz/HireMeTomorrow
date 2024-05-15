@@ -212,12 +212,21 @@ export default VerticalAccordion;
 const panelVariants = {
   open: {
     height: "100%",
+    transition: {
+      duration: 0.8,
+      delay: 0.4,
+      ease: "easeInOut",
+    },
   },
   closed: {
     height: "0%",
+    transition: {
+      duration: 0.2,
+      delay: 0.1,
+      ease: "easeInOut",
+    },
   },
 };
-
 const panelVariantsSm = {
   open: {
     height: "200px",
@@ -232,7 +241,9 @@ const descriptionVariants = {
     opacity: 1,
     y: "0%",
     transition: {
-      delay: 0.125,
+      duration: 0.5,
+      delay: 0.2,
+      ease: "easeInOut",
     },
   },
   closed: { opacity: 0, y: "100%" },
