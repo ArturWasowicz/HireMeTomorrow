@@ -3,7 +3,7 @@ import styled from "styled-components";
 import "../UI/UserI.css";
 import "./logo-animation.css";
 import logo from '../assets/logo-transparent-svg.svg';
-import { FaFacebook, FaInstagram, FaTwitter, FaGithub } from "react-icons/fa";
+
 
 const ResumeButton = styled.a`
     -webkit-appearance: button;
@@ -32,8 +32,6 @@ const ResumeButton = styled.a`
         filter: brightness(1);
     }
 `;
-
-
 
 export default function Nav() {
     const logoRef = useRef(null);
