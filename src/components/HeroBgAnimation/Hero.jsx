@@ -51,7 +51,7 @@ const HeroLeftContainer = styled.div`
   }
 `;
 const HeroRightContainer = styled.div`
-  width: 100%;
+  width: 90%;
   order: 2;
   display: flex;
   justify-content: end;
@@ -129,15 +129,15 @@ const HeroBg = styled.div`
   right: 0;
   bottom: 0;
   left: 0;
-  width: 110%;
-  height: 150%;
+  width: 100%;
+  height: 100%;
   max-width: 1360px;
   overflow: hidden;
   padding: 0 30px;
   top: 50%;
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-39%) translateY(-25%);
+  transform: translateX(-40%) translateY(-35%);
 
   @media (max-width: 960px) {
     justify-content: center;
