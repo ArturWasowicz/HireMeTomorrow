@@ -36,6 +36,7 @@ const HeroInnerContainer = styled.div`
   max-width: 1300px;
   @media (max-width: 960px) {
     flex-direction: column;
+    width: 100%;
   }
 `;
 const HeroLeftContainer = styled.div`
@@ -45,6 +46,7 @@ const HeroLeftContainer = styled.div`
     order: 2;
     margin-bottom: 20px;
     display: flex;
+    width: 80%;
     gap: 6px;
     flex-direction: column;
     align-items: center;
@@ -58,6 +60,7 @@ const HeroRightContainer = styled.div`
   @media (max-width: 960px) {
     order: 1;
     display: flex;
+    width: 80%;
     flex-direction: column;
     align-items: center;
     justify-contents: center;
@@ -174,7 +177,7 @@ const Hero = () => {
                 <TypedText />
                 <section>
                   <div style={{ paddingTop: "12px" }}>
-                    <p style={{ textAlign: "justify", lineHeight: "1.6", fontSize: "clamp(1.2rem, 5vw, 1rem)", "@media (min-width: 600px)": { textAlign: "center" } }}>
+                    <p style={{ textAlign: "justify", lineHeight: "1.6", fontSize: "clamp(1.2rem, 5vw, 1rem)", "@media (min-width: 600px)": { textAlign: "center", lineHeight: "1" } }}>
                       Starting my journey in web development, I bring a fresh perspective and a hunger for learning. As a motivated beginner, I'm ready to tackle new challenges and contribute my enthusiasm to your team. With a foundation in Full Stack MERN development and a commitment to growth, I'm eager to take the next step in my career. My portfolio reflects my dedication to crafting modern applications and enhancing user experiences. Leveraging my expertise in various technologies, I'm driven to deliver innovative solutions to every project. Let's collaborate and create something extraordinary. Hire me, and let's make waves in the digital world!
                     </p>
                   </div>

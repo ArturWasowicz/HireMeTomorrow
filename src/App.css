@@ -198,7 +198,7 @@ span {
   margin-top: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 80px;
+  gap: 10px;
 }
 
 .project-card {
@@ -426,7 +426,7 @@ span {
   }
 
   .container {
-    width: 90%;
+    max-width: 90%;
   }
 
   /*...............Nav............ */

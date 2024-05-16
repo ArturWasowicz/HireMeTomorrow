@@ -123,9 +123,9 @@ const PanelContainer = styled(motion.div)`
   display: flex;
   align-items: flex-end;
   height: 0;
-  max-height: 250px; /* Maximalhöhe für kleine Bildschirme */
+  max-height: 250px;
   @media (min-width: 475px) {
-    max-height: unset; /* Aufheben der Maximalhöhe ab einer Breite von 475px */
+    max-height: unset; 
   }
 `;
 

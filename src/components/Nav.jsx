@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import styled from "styled-components";
 import "../UI/UserI.css";
-import "./logo-animation.css";
 import logo from '../assets/logo-transparent-svg.svg';
 
 
@@ -59,7 +58,7 @@ export default function Nav() {
                     <img src={logo} alt="Hire Me Tomorrow" />
                 </a>
                 <div>
-                    <ResumeButton href="#" alt="CV Artur Wasoiwcz">
+                    <ResumeButton href="#" alt="CV Artur Wasowicz">
                         My Resume
                     </ResumeButton>
                 </div>
