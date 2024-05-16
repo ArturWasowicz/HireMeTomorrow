@@ -13,7 +13,7 @@ export default function Contact() {
         <h4 id='Contact'>Contact</h4>
         <div className="socials">
           <p>
-            <a href=""><span><FaFacebook /></span></a>
+            <a href="#"><span><FaFacebook /></span></a>
             <a href="#"><span><FaInstagram /></span></a>
             <a href="#"><span><FaTwitter /></span></a>
             <a href="#"><span><FaGithub /></span></a>
