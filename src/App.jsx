@@ -16,6 +16,7 @@ export default function App() {
   return (
     <>
       <Nav />
+      <Menu />
       <Header />
       <About />
       <Experience />
@@ -23,7 +24,7 @@ export default function App() {
       <Project />
       <Testimonials />
       <Contact />
-      <Menu />
+
     </>
   )
 }
